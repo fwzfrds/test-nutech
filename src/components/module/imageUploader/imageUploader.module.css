@@ -1,0 +1,70 @@
+.container {
+    margin-top: 1rem;
+}
+
+.actionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fileButton {
+    padding: 30px;
+    border-radius: 5px;
+    background-color: orange;
+    border: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.removeButton {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.viewerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imagesViewer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.imagesViewer img {
+    width: 15rem;
+}
+
+.imageActions {
+    display: flex;
+    gap: 3px;
+}
+
+.imageActions button {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.imageActions button:first-child {
+    background-color: green;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .viewerContainer {
+        justify-content: center;
+    }
+}

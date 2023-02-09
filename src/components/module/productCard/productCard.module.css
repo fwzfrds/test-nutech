@@ -1,0 +1,40 @@
+.productCard {
+    width: 250px;
+    margin: 0.5rem;
+    position: relative;
+    min-height: 300px;
+}
+
+.cardMedia {
+    height: 140px;
+}
+
+.productName {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    color: #757575;
+}
+
+.cardActions {
+    position: absolute;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .productCard {
+        width: 160px;
+        min-height: 250px;
+
+    }
+
+    .productName {
+        font-size: 14px;
+    }
+
+    .cardMedia {
+        height: 100px;
+    }
+
+}

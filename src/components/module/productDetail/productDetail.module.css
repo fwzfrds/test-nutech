@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+}
+
+.imgGallery {
+    width: 450px;
+}
+
+.productInfo {
+    padding: 1rem 2rem;
+}
+
+.rating {
+    display: flex;
+    gap: 5px;
+    margin-top: 1rem;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container {
+        display: block;
+    }
+
+    .imgGallery {
+        width: 350px;
+    }
+
+    .productInfo {
+        padding: 1rem 1rem;
+    }
+
+}
