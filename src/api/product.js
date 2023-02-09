@@ -2,8 +2,7 @@ import instance from '../utils/axios/instance'
 
 export const index = async (offset, search) => {
     const response = await instance({
-        // url: `/products?title=${search}&offset=${offset}&limit=8`,
-        url: `/products?limit=8&skip=${offset}`,
+        url: `/products/search?q=${search}&limit=8&skip=${offset}`,
         method: "GET"
     })
 
